@@ -154,7 +154,7 @@ function decidirTransito(viaEvaluar1, viaEvaluar2, momentoSimulacion) {
 
 function contarEmbotellamientos(viaEvaluar, momentoSimulacion) {
 
-    var vigilanteKilometro = 0;
+    var vigilanteKilometro = 1;
     var contadorEmbotellamientos = 0;
     viaEvaluar.arrayKilometros.forEach(kilometroDensidad => {
 
